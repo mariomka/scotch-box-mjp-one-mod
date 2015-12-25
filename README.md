@@ -10,17 +10,20 @@ This is just a script mod, *scotch/box* vm box is used.
 - Added memory and cpu configuration to Vagrantfile
 
 # Before vagrant up
+Edit Vagrantfile
+
 ## Set sync folder
-Replace */vagrant/public* by web root path on Vagranfile
+Example folder: */home/mario/websites*
+
 ```ruby
-config.vm.synced_folder "/vagrant/public", "/var/www", :mount_options => ["dmode=777", "fmode=666"]
+config.vm.synced_folder "/home/mario/websites", "/var/www", :mount_options => ["dmode=777", "fmode=666"]
 ```
 
 ## Set ram memory and CPUs
 ```ruby
 config.vm.provider "virtualbox" do |v|
-    v.memory = 2048
-    v.cpus = 2
+    v.memory = 4096
+    v.cpus = 4
 end
 ```
 
