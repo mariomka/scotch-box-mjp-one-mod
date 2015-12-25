@@ -31,7 +31,7 @@
     8 8888    ,88'  ` 8888     ,88' .8'    `8.`8888.
     8 888888888P       `8888888P'  .8'      `8.`8888.
     -->
-    <title>Scotch Box ♥ A Vagrant LAMP Stack for Beginners That Just Works</title>
+    <title>Scotch Box - mjp.one mod ♥ A Vagrant LAMP Stack for Beginners That Just Works</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="yes" name="apple-mobile-web-app-capable">
@@ -165,7 +165,7 @@
     </div>
 
     <section id="topper" style="background-image: url('data:image/svg+xml;base64,<?php echo base64_encode('<svg xmlns="http://www.w3.org/2000/svg" version="1.1"><defs id="defs4"><filter color-interpolation-filters="sRGB" id="filter3115"><feTurbulence type="fractalNoise" numOctaves="1" baseFrequency="0.9" id="feTurbulence3117"/><feColorMatrix result="result5" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 6 -4.15 " id="feColorMatrix3119"/><feComposite in2="result5" operator="in" in="SourceGraphic" result="result6" id="feComposite3121"/><feMorphology in="result6" operator="dilate" radius="1" result="result3" id="feMorphology3123"/></filter></defs><rect width="100%" height="100%" x="0" y="0" id="rect2985" fill="#000000"/><rect width="100%" height="100%" x="0" y="0" id="rect2985" style="fill:#FF4343;filter:url(#filter3115)"/></svg>'); ?>');">
-        <h1>Welcome to<br>Scotch Box 2.5 <i class="fa fa-heart"></i></h1>
+        <h1>Welcome to<br>Scotch Box 2.5<br>mjp.one mod <i class="fa fa-heart"></i></h1>
     </section>
 
     <article>
