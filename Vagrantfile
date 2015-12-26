@@ -6,10 +6,10 @@ Vagrant.configure("2") do |config|
     config.vm.box = "scotch/box"
     config.vm.network "private_network", ip: "192.168.69.10"
     config.vm.hostname = "scotchbox-mjp.one-mod"
-    config.vm.synced_folder "./websites", "/var/www", :mount_options => ["dmode=777", "fmode=666"]
+    config.vm.synced_folder "./websites", "/var/www", :mount_options => ["dmode=775", "fmode=764"]
 
     # Optional NFS. Make sure to remove other synced_folder line too
-    #config.vm.synced_folder ".", "/var/www", :nfs => { :mount_options => ["dmode=777","fmode=666"] }
+    #config.vm.synced_folder ".", "/var/www", :nfs => { :mount_options => ["dmode=775", "fmode=764"] }
 
     config.vm.provider "virtualbox" do |v|
         v.memory = 2048
